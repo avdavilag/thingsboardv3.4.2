@@ -73,7 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "customer": MessageLookupByLibrary.simpleMessage("Customer"),
         "customers": MessageLookupByLibrary.simpleMessage("Customers"),
         "devices": MessageLookupByLibrary.simpleMessage("Devices"),
-        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "email": MessageLookupByLibrary.simpleMessage("Correo"),
         "emailAuthDescription": m0,
         "emailAuthPlaceholder":
             MessageLookupByLibrary.simpleMessage("Email code"),
@@ -94,9 +94,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "lastNameUpper": MessageLookupByLibrary.simpleMessage("Last Name"),
         "listIsEmptyText": MessageLookupByLibrary.simpleMessage(
             "The list is currently empty."),
-        "login": MessageLookupByLibrary.simpleMessage("Log In"),
+        "login": MessageLookupByLibrary.simpleMessage("Ingresar"),
         "loginNotification":
-            MessageLookupByLibrary.simpleMessage("Login to your account"),
+            MessageLookupByLibrary.simpleMessage("Inicio de sesión"),
         "logoDefaultValue":
             MessageLookupByLibrary.simpleMessage("ThingsBoard Logo"),
         "logout": MessageLookupByLibrary.simpleMessage("Log Out"),
@@ -119,11 +119,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("New password *"),
         "notImplemented":
             MessageLookupByLibrary.simpleMessage("Not implemented!"),
-        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "password": MessageLookupByLibrary.simpleMessage("Contaseña"),
         "passwordErrorNotification": MessageLookupByLibrary.simpleMessage(
             "Entered passwords must be same!"),
         "passwordForgotText":
-            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+            MessageLookupByLibrary.simpleMessage("Contraseña Olvidada?"),
         "passwordRequireText":
             MessageLookupByLibrary.simpleMessage("Password is required."),
         "passwordReset": MessageLookupByLibrary.simpleMessage("Reset password"),

@@ -272,7 +272,7 @@ class _LoginPageState extends TbPageState<LoginPage> {
     if (client.icon != null) {
       if (ThingsboardImage.oauth2Logos.containsKey(client.icon)) {
         icon = SvgPicture.asset(ThingsboardImage.oauth2Logos[client.icon]!,
-            height: 24);
+            height: 10);
       } else {
         String strIcon = client.icon!;
         if (strIcon.startsWith('mdi:')) {
