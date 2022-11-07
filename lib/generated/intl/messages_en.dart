@@ -73,7 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "customer": MessageLookupByLibrary.simpleMessage("Customer"),
         "customers": MessageLookupByLibrary.simpleMessage("Customers"),
         "devices": MessageLookupByLibrary.simpleMessage("Devices"),
-        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "email": MessageLookupByLibrary.simpleMessage("Correo"),
         "emailAuthDescription": m0,
         "emailAuthPlaceholder":
             MessageLookupByLibrary.simpleMessage("Email code"),
@@ -96,9 +96,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "The list is currently empty."),
         "login": MessageLookupByLibrary.simpleMessage("Ingresar"),
         "loginNotification":
-            MessageLookupByLibrary.simpleMessage("Login to your account"),
-        "logoDefaultValue":
-            MessageLookupByLibrary.simpleMessage("ThingsBoard Logo"),
+            MessageLookupByLibrary.simpleMessage("Inicio de sesion"),
+        "logoDefaultValue": MessageLookupByLibrary.simpleMessage("weelab"),
         "logout": MessageLookupByLibrary.simpleMessage("Log Out"),
         "mfaProviderBackupCode":
             MessageLookupByLibrary.simpleMessage("Backup code"),
@@ -119,11 +118,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("New password *"),
         "notImplemented":
             MessageLookupByLibrary.simpleMessage("Not implemented!"),
-        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "password": MessageLookupByLibrary.simpleMessage("Contraseña"),
         "passwordErrorNotification": MessageLookupByLibrary.simpleMessage(
             "Entered passwords must be same!"),
         "passwordForgotText":
-            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
+            MessageLookupByLibrary.simpleMessage("Olvidaste Contraseña?"),
         "passwordRequireText":
             MessageLookupByLibrary.simpleMessage("Password is required."),
         "passwordReset": MessageLookupByLibrary.simpleMessage("Reset password"),
