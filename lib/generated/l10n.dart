@@ -50,140 +50,140 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `ThingsBoard`
+  /// `weelab.io`
   String get appTitle {
     return Intl.message(
-      'ThingsBoard',
+      'weelab.io',
       name: 'appTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Home`
+  /// `Inicio`
   String get home {
     return Intl.message(
-      'Home',
+      'Inicio',
       name: 'home',
       desc: '',
       args: [],
     );
   }
 
-  /// `Alarms`
+  /// `Alarma`
   String get alarms {
     return Intl.message(
-      'Alarms',
+      'Alarma',
       name: 'alarms',
       desc: '',
       args: [],
     );
   }
 
-  /// `Devices`
+  /// `Dispositivos`
   String get devices {
     return Intl.message(
-      'Devices',
+      'Dispositivos',
       name: 'devices',
       desc: '',
       args: [],
     );
   }
 
-  /// `More`
+  /// `Opciones`
   String get more {
     return Intl.message(
-      'More',
+      'Opciones',
       name: 'more',
       desc: '',
       args: [],
     );
   }
 
-  /// `Customers`
+  /// `Clientes`
   String get customers {
     return Intl.message(
-      'Customers',
+      'Clientes',
       name: 'customers',
       desc: '',
       args: [],
     );
   }
 
-  /// `Assets`
+  /// `Activos`
   String get assets {
     return Intl.message(
-      'Assets',
+      'Activos',
       name: 'assets',
       desc: '',
       args: [],
     );
   }
 
-  /// `Audit Logs`
+  /// `Registros de Auditoria`
   String get auditLogs {
     return Intl.message(
-      'Audit Logs',
+      'Registros de Auditoria',
       name: 'auditLogs',
       desc: '',
       args: [],
     );
   }
 
-  /// `Log Out`
+  /// `Salir`
   String get logout {
     return Intl.message(
-      'Log Out',
+      'Salir',
       name: 'logout',
       desc: '',
       args: [],
     );
   }
 
-  /// `Log In`
+  /// `Ingresa`
   String get login {
     return Intl.message(
-      'Log In',
+      'Ingresa',
       name: 'login',
       desc: '',
       args: [],
     );
   }
 
-  /// `ThingsBoard Logo`
+  /// `WeeLab.io Logo`
   String get logoDefaultValue {
     return Intl.message(
-      'ThingsBoard Logo',
+      'WeeLab.io Logo',
       name: 'logoDefaultValue',
       desc: '',
       args: [],
     );
   }
 
-  /// `Login to your account`
+  /// `Inicio de sesion`
   String get loginNotification {
     return Intl.message(
-      'Login to your account',
+      'Inicio de sesion',
       name: 'loginNotification',
       desc: '',
       args: [],
     );
   }
 
-  /// `Email`
+  /// `Correo`
   String get email {
     return Intl.message(
-      'Email',
+      'Correo',
       name: 'email',
       desc: '',
       args: [],
     );
   }
 
-  /// `Email is required.`
+  /// `Correo es Requerido.`
   String get emailRequireText {
     return Intl.message(
-      'Email is required.',
+      'Correo es Requerido.',
       name: 'emailRequireText',
       desc: '',
       args: [],
@@ -200,50 +200,50 @@ class S {
     );
   }
 
-  /// `username`
+  /// `Usuario`
   String get username {
     return Intl.message(
-      'username',
+      'Usuario',
       name: 'username',
       desc: '',
       args: [],
     );
   }
 
-  /// `Password`
+  /// `Contraseña`
   String get password {
     return Intl.message(
-      'Password',
+      'Contraseña',
       name: 'password',
       desc: '',
       args: [],
     );
   }
 
-  /// `Password is required.`
+  /// `La Contraseña es requerida.`
   String get passwordRequireText {
     return Intl.message(
-      'Password is required.',
+      'La Contraseña es requerida.',
       name: 'passwordRequireText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Forgot Password?`
+  /// `Olvido su Contraseña?`
   String get passwordForgotText {
     return Intl.message(
-      'Forgot Password?',
+      'Olvido su Contraseña?',
       name: 'passwordForgotText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Reset password`
+  /// `!!Cambia su Contraseña!!`
   String get passwordReset {
     return Intl.message(
-      'Reset password',
+      '!!Cambia su Contraseña!!',
       name: 'passwordReset',
       desc: '',
       args: [],
@@ -260,10 +260,10 @@ class S {
     );
   }
 
-  /// `Request password reset`
+  /// `Petición para la recuperación de nueva contraseña`
   String get requestPasswordReset {
     return Intl.message(
-      'Request password reset',
+      'Petición para la recuperación de nueva contraseña',
       name: 'requestPasswordReset',
       desc: '',
       args: [],
@@ -300,10 +300,10 @@ class S {
     );
   }
 
-  /// `Yes`
+  /// `Si`
   String get Yes {
     return Intl.message(
-      'Yes',
+      'Si',
       name: 'Yes',
       desc: '',
       args: [],
@@ -430,40 +430,40 @@ class S {
     );
   }
 
-  /// `Asset name`
+  /// `Nombre del Activo`
   String get assetName {
     return Intl.message(
-      'Asset name',
+      'Nombre del Activo',
       name: 'assetName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Type`
+  /// `Tipo`
   String get type {
     return Intl.message(
-      'Type',
+      'Tipo',
       name: 'type',
       desc: '',
       args: [],
     );
   }
 
-  /// `Label`
+  /// `Etiqueta`
   String get label {
     return Intl.message(
-      'Label',
+      'Etiqueta',
       name: 'label',
       desc: '',
       args: [],
     );
   }
 
-  /// `Assigned to customer`
+  /// `Asignación del Cliente`
   String get assignedToCustomer {
     return Intl.message(
-      'Assigned to customer',
+      'Asignación del Cliente',
       name: 'assignedToCustomer',
       desc: '',
       args: [],
@@ -510,30 +510,30 @@ class S {
     );
   }
 
-  /// `All devices`
+  /// `Todos los Dispositivos`
   String get allDevices {
     return Intl.message(
-      'All devices',
+      'Todos los Dispositivos',
       name: 'allDevices',
       desc: '',
       args: [],
     );
   }
 
-  /// `Active`
+  /// `Activo`
   String get active {
     return Intl.message(
-      'Active',
+      'Activo',
       name: 'active',
       desc: '',
       args: [],
     );
   }
 
-  /// `Inactive`
+  /// `Inactivo`
   String get inactive {
     return Intl.message(
-      'Inactive',
+      'Inactivo',
       name: 'inactive',
       desc: '',
       args: [],
@@ -560,20 +560,20 @@ class S {
     );
   }
 
-  /// `Customer`
+  /// `Cliente`
   String get customer {
     return Intl.message(
-      'Customer',
+      'Cliente',
       name: 'customer',
       desc: '',
       args: [],
     );
   }
 
-  /// `Change Password`
+  /// `Cambio de Contraseña`
   String get changePassword {
     return Intl.message(
-      'Change Password',
+      'Cambio de Contraseña',
       name: 'changePassword',
       desc: '',
       args: [],
@@ -680,10 +680,10 @@ class S {
     );
   }
 
-  /// `Email *`
+  /// `Correo *`
   String get emailStar {
     return Intl.message(
-      'Email *',
+      'Correo *',
       name: 'emailStar',
       desc: '',
       args: [],
@@ -700,10 +700,10 @@ class S {
     );
   }
 
-  /// `First Name`
+  /// `Nombre`
   String get firstNameUpper {
     return Intl.message(
-      'First Name',
+      'Nombre',
       name: 'firstNameUpper',
       desc: '',
       args: [],
@@ -720,10 +720,10 @@ class S {
     );
   }
 
-  /// `Last Name`
+  /// `Apellido`
   String get lastNameUpper {
     return Intl.message(
-      'Last Name',
+      'Apellido',
       name: 'lastNameUpper',
       desc: '',
       args: [],
@@ -750,30 +750,30 @@ class S {
     );
   }
 
-  /// `Not implemented!`
+  /// `No se encuentra Implementado!`
   String get notImplemented {
     return Intl.message(
-      'Not implemented!',
+      'No se encuentra Implementado!',
       name: 'notImplemented',
       desc: '',
       args: [],
     );
   }
 
-  /// `The list is currently empty.`
+  /// `La lista esta actualmente vacia.`
   String get listIsEmptyText {
     return Intl.message(
-      'The list is currently empty.',
+      'La lista esta actualmente vacia.',
       name: 'listIsEmptyText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Try Again`
+  /// `Intentar nuevamente`
   String get tryAgain {
     return Intl.message(
-      'Try Again',
+      'Intentar nuevamente',
       name: 'tryAgain',
       desc: '',
       args: [],

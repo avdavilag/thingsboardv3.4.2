@@ -33,9 +33,9 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "No": MessageLookupByLibrary.simpleMessage("No"),
         "OR": MessageLookupByLibrary.simpleMessage("OR"),
-        "Yes": MessageLookupByLibrary.simpleMessage("Yes"),
+        "Yes": MessageLookupByLibrary.simpleMessage("Si"),
         "actionData": MessageLookupByLibrary.simpleMessage("Action data"),
-        "active": MessageLookupByLibrary.simpleMessage("Active"),
+        "active": MessageLookupByLibrary.simpleMessage("Activo"),
         "address": MessageLookupByLibrary.simpleMessage("Address"),
         "address2": MessageLookupByLibrary.simpleMessage("Address 2"),
         "alarmAcknowledgeText": MessageLookupByLibrary.simpleMessage(
@@ -45,22 +45,24 @@ class MessageLookup extends MessageLookupByLibrary {
         "alarmClearText": MessageLookupByLibrary.simpleMessage(
             "Are you sure you want to clear Alarm?"),
         "alarmClearTitle": MessageLookupByLibrary.simpleMessage("Clear Alarm"),
-        "alarms": MessageLookupByLibrary.simpleMessage("Alarms"),
-        "allDevices": MessageLookupByLibrary.simpleMessage("All devices"),
-        "appTitle": MessageLookupByLibrary.simpleMessage("ThingsBoard"),
-        "assetName": MessageLookupByLibrary.simpleMessage("Asset name"),
-        "assets": MessageLookupByLibrary.simpleMessage("Assets"),
+        "alarms": MessageLookupByLibrary.simpleMessage("Alarma"),
+        "allDevices":
+            MessageLookupByLibrary.simpleMessage("Todos los Dispositivos"),
+        "appTitle": MessageLookupByLibrary.simpleMessage("weelab.io"),
+        "assetName": MessageLookupByLibrary.simpleMessage("Nombre del Activo"),
+        "assets": MessageLookupByLibrary.simpleMessage("Activos"),
         "assignedToCustomer":
-            MessageLookupByLibrary.simpleMessage("Assigned to customer"),
+            MessageLookupByLibrary.simpleMessage("Asignación del Cliente"),
         "auditLogDetails":
             MessageLookupByLibrary.simpleMessage("Audit log details"),
-        "auditLogs": MessageLookupByLibrary.simpleMessage("Audit Logs"),
+        "auditLogs":
+            MessageLookupByLibrary.simpleMessage("Registros de Auditoria"),
         "backupCodeAuthDescription": MessageLookupByLibrary.simpleMessage(
             "Please enter one of your backup codes."),
         "backupCodeAuthPlaceholder":
             MessageLookupByLibrary.simpleMessage("Backup code"),
         "changePassword":
-            MessageLookupByLibrary.simpleMessage("Change Password"),
+            MessageLookupByLibrary.simpleMessage("Cambio de Contraseña"),
         "city": MessageLookupByLibrary.simpleMessage("City"),
         "continueText": MessageLookupByLibrary.simpleMessage("Continue"),
         "country": MessageLookupByLibrary.simpleMessage("Country"),
@@ -70,9 +72,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "Current password is required."),
         "currentPasswordStar":
             MessageLookupByLibrary.simpleMessage("Current password *"),
-        "customer": MessageLookupByLibrary.simpleMessage("Customer"),
-        "customers": MessageLookupByLibrary.simpleMessage("Customers"),
-        "devices": MessageLookupByLibrary.simpleMessage("Devices"),
+        "customer": MessageLookupByLibrary.simpleMessage("Cliente"),
+        "customers": MessageLookupByLibrary.simpleMessage("Clientes"),
+        "devices": MessageLookupByLibrary.simpleMessage("Dispositivos"),
         "email": MessageLookupByLibrary.simpleMessage("Correo"),
         "emailAuthDescription": m0,
         "emailAuthPlaceholder":
@@ -80,32 +82,33 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailInvalidText":
             MessageLookupByLibrary.simpleMessage("Correo Incorrecto."),
         "emailRequireText":
-            MessageLookupByLibrary.simpleMessage("Email is required."),
-        "emailStar": MessageLookupByLibrary.simpleMessage("Email *"),
+            MessageLookupByLibrary.simpleMessage("Correo es Requerido."),
+        "emailStar": MessageLookupByLibrary.simpleMessage("Correo *"),
         "entityType": MessageLookupByLibrary.simpleMessage("Entity Type"),
         "failureDetails":
             MessageLookupByLibrary.simpleMessage("Failure details"),
         "firstName": MessageLookupByLibrary.simpleMessage("firstName"),
-        "firstNameUpper": MessageLookupByLibrary.simpleMessage("First Name"),
-        "home": MessageLookupByLibrary.simpleMessage("Home"),
-        "inactive": MessageLookupByLibrary.simpleMessage("Inactive"),
-        "label": MessageLookupByLibrary.simpleMessage("Label"),
+        "firstNameUpper": MessageLookupByLibrary.simpleMessage("Nombre"),
+        "home": MessageLookupByLibrary.simpleMessage("Inicio"),
+        "inactive": MessageLookupByLibrary.simpleMessage("Inactivo"),
+        "label": MessageLookupByLibrary.simpleMessage("Etiqueta"),
         "lastName": MessageLookupByLibrary.simpleMessage("lastName"),
-        "lastNameUpper": MessageLookupByLibrary.simpleMessage("Last Name"),
+        "lastNameUpper": MessageLookupByLibrary.simpleMessage("Apellido"),
         "listIsEmptyText": MessageLookupByLibrary.simpleMessage(
-            "The list is currently empty."),
-        "login": MessageLookupByLibrary.simpleMessage("Ingresar"),
+            "La lista esta actualmente vacia."),
+        "login": MessageLookupByLibrary.simpleMessage("Ingresa"),
         "loginNotification":
             MessageLookupByLibrary.simpleMessage("Inicio de sesion"),
-        "logoDefaultValue": MessageLookupByLibrary.simpleMessage("weelab"),
-        "logout": MessageLookupByLibrary.simpleMessage("Log Out"),
+        "logoDefaultValue":
+            MessageLookupByLibrary.simpleMessage("WeeLab.io Logo"),
+        "logout": MessageLookupByLibrary.simpleMessage("Salir"),
         "mfaProviderBackupCode":
             MessageLookupByLibrary.simpleMessage("Backup code"),
         "mfaProviderEmail": MessageLookupByLibrary.simpleMessage("Email"),
         "mfaProviderSms": MessageLookupByLibrary.simpleMessage("SMS"),
         "mfaProviderTopt":
             MessageLookupByLibrary.simpleMessage("Authenticator app"),
-        "more": MessageLookupByLibrary.simpleMessage("More"),
+        "more": MessageLookupByLibrary.simpleMessage("Opciones"),
         "newPassword": MessageLookupByLibrary.simpleMessage("newPassword"),
         "newPassword2": MessageLookupByLibrary.simpleMessage("newPassword2"),
         "newPassword2RequireText": MessageLookupByLibrary.simpleMessage(
@@ -116,16 +119,17 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("New password is required."),
         "newPasswordStar":
             MessageLookupByLibrary.simpleMessage("New password *"),
-        "notImplemented":
-            MessageLookupByLibrary.simpleMessage("Not implemented!"),
+        "notImplemented": MessageLookupByLibrary.simpleMessage(
+            "No se encuentra Implementado!"),
         "password": MessageLookupByLibrary.simpleMessage("Contraseña"),
         "passwordErrorNotification": MessageLookupByLibrary.simpleMessage(
             "Entered passwords must be same!"),
         "passwordForgotText":
-            MessageLookupByLibrary.simpleMessage("Olvidaste Contraseña?"),
+            MessageLookupByLibrary.simpleMessage("Olvido su Contraseña?"),
         "passwordRequireText":
-            MessageLookupByLibrary.simpleMessage("Password is required."),
-        "passwordReset": MessageLookupByLibrary.simpleMessage("Reset password"),
+            MessageLookupByLibrary.simpleMessage("La Contraseña es requerida."),
+        "passwordReset":
+            MessageLookupByLibrary.simpleMessage("!!Cambia su Contraseña!!"),
         "passwordResetLinkSuccessfullySentNotification":
             MessageLookupByLibrary.simpleMessage(
                 "Password reset link was successfully sent!"),
@@ -137,8 +141,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "postalCode": MessageLookupByLibrary.simpleMessage("Zip / Postal Code"),
         "profileSuccessNotification": MessageLookupByLibrary.simpleMessage(
             "Profile successfully updated"),
-        "requestPasswordReset":
-            MessageLookupByLibrary.simpleMessage("Request password reset"),
+        "requestPasswordReset": MessageLookupByLibrary.simpleMessage(
+            "Petición para la recuperación de nueva contraseña"),
         "resendCode": MessageLookupByLibrary.simpleMessage("Resend code"),
         "resendCodeWait": m1,
         "selectWayToVerify":
@@ -155,11 +159,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "toptAuthPlaceholder": MessageLookupByLibrary.simpleMessage("Code"),
         "totpAuthDescription": MessageLookupByLibrary.simpleMessage(
             "Please enter the security code from your authenticator app."),
-        "tryAgain": MessageLookupByLibrary.simpleMessage("Try Again"),
+        "tryAgain": MessageLookupByLibrary.simpleMessage("Intentar nuevamente"),
         "tryAnotherWay":
             MessageLookupByLibrary.simpleMessage("Try another way"),
-        "type": MessageLookupByLibrary.simpleMessage("Type"),
-        "username": MessageLookupByLibrary.simpleMessage("username"),
+        "type": MessageLookupByLibrary.simpleMessage("Tipo"),
+        "username": MessageLookupByLibrary.simpleMessage("Usuario"),
         "verificationCodeIncorrect": MessageLookupByLibrary.simpleMessage(
             "Verification code is incorrect"),
         "verificationCodeInvalid": MessageLookupByLibrary.simpleMessage(
