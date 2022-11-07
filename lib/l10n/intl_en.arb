@@ -16,7 +16,7 @@
   "loginNotification": "Login to your account",
   "email": "Email",
   "emailRequireText": "Email is required.",
-  "emailInvalidText": "Invalid email format.",
+  "emailInvalidText": "Correo Incorrecto.",
   "username": "username",
   "password": "Password",
   "passwordRequireText": "Password is required.",

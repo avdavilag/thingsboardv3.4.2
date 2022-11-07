@@ -190,10 +190,10 @@ class S {
     );
   }
 
-  /// `Invalid email format.`
+  /// `Correo Incorrecto.`
   String get emailInvalidText {
     return Intl.message(
-      'Invalid email format.',
+      'Correo Incorrecto.',
       name: 'emailInvalidText',
       desc: '',
       args: [],
