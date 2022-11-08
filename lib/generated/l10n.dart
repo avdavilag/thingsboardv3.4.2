@@ -250,10 +250,10 @@ class S {
     );
   }
 
-  /// `Enter the email associated with your account and we'll send an email with password reset link`
+  /// `Ingrese el correo electrónico asociado con su cuenta y le enviaremos un correo electrónico con un enlace para restablecer la contraseña`
   String get passwordResetText {
     return Intl.message(
-      'Enter the email associated with your account and we\'ll send an email with password reset link',
+      'Ingrese el correo electrónico asociado con su cuenta y le enviaremos un correo electrónico con un enlace para restablecer la contraseña',
       name: 'passwordResetText',
       desc: '',
       args: [],
@@ -270,10 +270,10 @@ class S {
     );
   }
 
-  /// `Password reset link was successfully sent!`
+  /// `El enlace de restablecimiento de contraseña se envió con éxito!`
   String get passwordResetLinkSuccessfullySentNotification {
     return Intl.message(
-      'Password reset link was successfully sent!',
+      'El enlace de restablecimiento de contraseña se envió con éxito!',
       name: 'passwordResetLinkSuccessfullySentNotification',
       desc: '',
       args: [],
@@ -310,40 +310,40 @@ class S {
     );
   }
 
-  /// `Title`
+  /// `Titulo`
   String get title {
     return Intl.message(
-      'Title',
+      'Titulo',
       name: 'title',
       desc: '',
       args: [],
     );
   }
 
-  /// `Country`
+  /// `Pais`
   String get country {
     return Intl.message(
-      'Country',
+      'Pais',
       name: 'country',
       desc: '',
       args: [],
     );
   }
 
-  /// `City`
+  /// `Ciudad`
   String get city {
     return Intl.message(
-      'City',
+      'Ciudad',
       name: 'city',
       desc: '',
       args: [],
     );
   }
 
-  /// `State / Province`
+  /// `Estado / Provincia`
   String get stateOrProvince {
     return Intl.message(
-      'State / Province',
+      'Estado / Provincia',
       name: 'stateOrProvince',
       desc: '',
       args: [],
@@ -360,70 +360,70 @@ class S {
     );
   }
 
-  /// `Address`
+  /// `Dirección`
   String get address {
     return Intl.message(
-      'Address',
+      'Dirección',
       name: 'address',
       desc: '',
       args: [],
     );
   }
 
-  /// `Address 2`
+  /// `Dirección 2`
   String get address2 {
     return Intl.message(
-      'Address 2',
+      'Dirección 2',
       name: 'address2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Phone`
+  /// `Teléfono`
   String get phone {
     return Intl.message(
-      'Phone',
+      'Teléfono',
       name: 'phone',
       desc: '',
       args: [],
     );
   }
 
-  /// `Clear Alarm`
+  /// `Quitar Alarma`
   String get alarmClearTitle {
     return Intl.message(
-      'Clear Alarm',
+      'Quitar Alarma',
       name: 'alarmClearTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Are you sure you want to clear Alarm?`
+  /// `Estas seguro de quitar la Alarma?`
   String get alarmClearText {
     return Intl.message(
-      'Are you sure you want to clear Alarm?',
+      'Estas seguro de quitar la Alarma?',
       name: 'alarmClearText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Acknowledge Alarm`
+  /// `Reconocer Alarma`
   String get alarmAcknowledgeTitle {
     return Intl.message(
-      'Acknowledge Alarm',
+      'Reconocer Alarma',
       name: 'alarmAcknowledgeTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Are you sure you want to acknowledge Alarm?`
+  /// `Estas seguro que quieres reconocer la Alarma?`
   String get alarmAcknowledgeText {
     return Intl.message(
-      'Are you sure you want to acknowledge Alarm?',
+      'Estas seguro que quieres reconocer la Alarma?',
       name: 'alarmAcknowledgeText',
       desc: '',
       args: [],
@@ -470,40 +470,40 @@ class S {
     );
   }
 
-  /// `Audit log details`
+  /// `Detalles del registro de Auditoria`
   String get auditLogDetails {
     return Intl.message(
-      'Audit log details',
+      'Detalles del registro de Auditoria',
       name: 'auditLogDetails',
       desc: '',
       args: [],
     );
   }
 
-  /// `Entity Type`
+  /// `Tipo de Entidad`
   String get entityType {
     return Intl.message(
-      'Entity Type',
+      'Tipo de Entidad',
       name: 'entityType',
       desc: '',
       args: [],
     );
   }
 
-  /// `Action data`
+  /// `Datos de Acción`
   String get actionData {
     return Intl.message(
-      'Action data',
+      'Datos de Acción',
       name: 'actionData',
       desc: '',
       args: [],
     );
   }
 
-  /// `Failure details`
+  /// `Detalles de la Falla`
   String get failureDetails {
     return Intl.message(
-      'Failure details',
+      'Detalles de la Falla',
       name: 'failureDetails',
       desc: '',
       args: [],
@@ -540,20 +540,20 @@ class S {
     );
   }
 
-  /// `System Administrator`
+  /// `Administrator de Sistemas`
   String get systemAdministrator {
     return Intl.message(
-      'System Administrator',
+      'Administrator de Sistemas',
       name: 'systemAdministrator',
       desc: '',
       args: [],
     );
   }
 
-  /// `Tenant Administrator`
+  /// `Administrator de Clientes`
   String get tenantAdministrator {
     return Intl.message(
-      'Tenant Administrator',
+      'Administrator de Clientes',
       name: 'tenantAdministrator',
       desc: '',
       args: [],
@@ -580,80 +580,80 @@ class S {
     );
   }
 
-  /// `currentPassword`
+  /// `ContraseñaActual`
   String get currentPassword {
     return Intl.message(
-      'currentPassword',
+      'ContraseñaActual',
       name: 'currentPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `Current password is required.`
+  /// `Se requiere Contraseña Actual.`
   String get currentPasswordRequireText {
     return Intl.message(
-      'Current password is required.',
+      'Se requiere Contraseña Actual.',
       name: 'currentPasswordRequireText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Current password *`
+  /// `Contraseña Actual *`
   String get currentPasswordStar {
     return Intl.message(
-      'Current password *',
+      'Contraseña Actual *',
       name: 'currentPasswordStar',
       desc: '',
       args: [],
     );
   }
 
-  /// `newPassword`
+  /// `NuevaContraseña`
   String get newPassword {
     return Intl.message(
-      'newPassword',
+      'NuevaContraseña',
       name: 'newPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `New password is required.`
+  /// `Nueva Contraseña es requerida.`
   String get newPasswordRequireText {
     return Intl.message(
-      'New password is required.',
+      'Nueva Contraseña es requerida.',
       name: 'newPasswordRequireText',
       desc: '',
       args: [],
     );
   }
 
-  /// `New password *`
+  /// `Nueva Contraseña*`
   String get newPasswordStar {
     return Intl.message(
-      'New password *',
+      'Nueva Contraseña*',
       name: 'newPasswordStar',
       desc: '',
       args: [],
     );
   }
 
-  /// `newPassword2`
+  /// `nuevaContraseña2`
   String get newPassword2 {
     return Intl.message(
-      'newPassword2',
+      'nuevaContraseña2',
       name: 'newPassword2',
       desc: '',
       args: [],
     );
   }
 
-  /// `New password again is required.`
+  /// `Nueva contraseña nuevamente es requerida.`
   String get newPassword2RequireText {
     return Intl.message(
-      'New password again is required.',
+      'Nueva contraseña nuevamente es requerida.',
       name: 'newPassword2RequireText',
       desc: '',
       args: [],
@@ -670,10 +670,10 @@ class S {
     );
   }
 
-  /// `Entered passwords must be same!`
+  /// `Las contraseñas ingresadas deben ser las mismas!`
   String get passwordErrorNotification {
     return Intl.message(
-      'Entered passwords must be same!',
+      'Las contraseñas ingresadas deben ser las mismas!',
       name: 'passwordErrorNotification',
       desc: '',
       args: [],
@@ -690,10 +690,10 @@ class S {
     );
   }
 
-  /// `firstName`
+  /// `nombre`
   String get firstName {
     return Intl.message(
-      'firstName',
+      'nombre',
       name: 'firstName',
       desc: '',
       args: [],
@@ -710,10 +710,10 @@ class S {
     );
   }
 
-  /// `lastName`
+  /// `apellido`
   String get lastName {
     return Intl.message(
-      'lastName',
+      'apellido',
       name: 'lastName',
       desc: '',
       args: [],
@@ -730,20 +730,20 @@ class S {
     );
   }
 
-  /// `Profile successfully updated`
+  /// ` Perfil actualizado con éxito`
   String get profileSuccessNotification {
     return Intl.message(
-      'Profile successfully updated',
+      ' Perfil actualizado con éxito',
       name: 'profileSuccessNotification',
       desc: '',
       args: [],
     );
   }
 
-  /// `Password successfully changed`
+  /// `Contraseña cambiada correctamente`
   String get passwordSuccessNotification {
     return Intl.message(
-      'Password successfully changed',
+      'Contraseña cambiada correctamente',
       name: 'passwordSuccessNotification',
       desc: '',
       args: [],
@@ -780,180 +780,180 @@ class S {
     );
   }
 
-  /// `Verify your identity`
+  /// `Verifica tu Identidad`
   String get verifyYourIdentity {
     return Intl.message(
-      'Verify your identity',
+      'Verifica tu Identidad',
       name: 'verifyYourIdentity',
       desc: '',
       args: [],
     );
   }
 
-  /// `Continue`
+  /// `Continuar`
   String get continueText {
     return Intl.message(
-      'Continue',
+      'Continuar',
       name: 'continueText',
       desc: '',
       args: [],
     );
   }
 
-  /// `Resend code`
+  /// `Reenviar código`
   String get resendCode {
     return Intl.message(
-      'Resend code',
+      'Reenviar código',
       name: 'resendCode',
       desc: '',
       args: [],
     );
   }
 
-  /// `Resend code in {time,plural, =1{1 second}other{{time} seconds}}`
+  /// `Reenviar código restablecimiento en {time,plural, =1{1 second}other{{time} seconds}}`
   String resendCodeWait(num time) {
     return Intl.message(
-      'Resend code in ${Intl.plural(time, one: '1 second', other: '$time seconds')}',
+      'Reenviar código restablecimiento en ${Intl.plural(time, one: '1 second', other: '$time seconds')}',
       name: 'resendCodeWait',
       desc: '',
       args: [time],
     );
   }
 
-  /// `Please enter the security code from your authenticator app.`
+  /// `Ingrese el código de seguridad de su aplicación de autenticación.`
   String get totpAuthDescription {
     return Intl.message(
-      'Please enter the security code from your authenticator app.',
+      'Ingrese el código de seguridad de su aplicación de autenticación.',
       name: 'totpAuthDescription',
       desc: '',
       args: [],
     );
   }
 
-  /// `A security code has been sent to your phone at {contact}.`
+  /// `Se ha enviado un código de seguridad a su teléfono en {contact}.`
   String smsAuthDescription(Object contact) {
     return Intl.message(
-      'A security code has been sent to your phone at $contact.',
+      'Se ha enviado un código de seguridad a su teléfono en $contact.',
       name: 'smsAuthDescription',
       desc: '',
       args: [contact],
     );
   }
 
-  /// `A security code has been sent to your email address at {contact}.`
+  /// `Se ha enviado un código de seguridad a su dirección de correo electrónico en {contact}.`
   String emailAuthDescription(Object contact) {
     return Intl.message(
-      'A security code has been sent to your email address at $contact.',
+      'Se ha enviado un código de seguridad a su dirección de correo electrónico en $contact.',
       name: 'emailAuthDescription',
       desc: '',
       args: [contact],
     );
   }
 
-  /// `Please enter one of your backup codes.`
+  /// `Introduce uno de tus códigos de seguridad.`
   String get backupCodeAuthDescription {
     return Intl.message(
-      'Please enter one of your backup codes.',
+      'Introduce uno de tus códigos de seguridad.',
       name: 'backupCodeAuthDescription',
       desc: '',
       args: [],
     );
   }
 
-  /// `Invalid verification code format`
+  /// `Formato de código de verificación no válido `
   String get verificationCodeInvalid {
     return Intl.message(
-      'Invalid verification code format',
+      'Formato de código de verificación no válido ',
       name: 'verificationCodeInvalid',
       desc: '',
       args: [],
     );
   }
 
-  /// `Code`
+  /// `Código `
   String get toptAuthPlaceholder {
     return Intl.message(
-      'Code',
+      'Código ',
       name: 'toptAuthPlaceholder',
       desc: '',
       args: [],
     );
   }
 
-  /// `SMS code`
+  /// `SMS Código `
   String get smsAuthPlaceholder {
     return Intl.message(
-      'SMS code',
+      'SMS Código ',
       name: 'smsAuthPlaceholder',
       desc: '',
       args: [],
     );
   }
 
-  /// `Email code`
+  /// `Correo Código`
   String get emailAuthPlaceholder {
     return Intl.message(
-      'Email code',
+      'Correo Código',
       name: 'emailAuthPlaceholder',
       desc: '',
       args: [],
     );
   }
 
-  /// `Backup code`
+  /// `Respaldo Código`
   String get backupCodeAuthPlaceholder {
     return Intl.message(
-      'Backup code',
+      'Respaldo Código',
       name: 'backupCodeAuthPlaceholder',
       desc: '',
       args: [],
     );
   }
 
-  /// `Verification code is incorrect`
+  /// `Verification Código is incorrect`
   String get verificationCodeIncorrect {
     return Intl.message(
-      'Verification code is incorrect',
+      'Verification Código is incorrect',
       name: 'verificationCodeIncorrect',
       desc: '',
       args: [],
     );
   }
 
-  /// `Too many requests check verification code`
+  /// `Too many requests check verification Código`
   String get verificationCodeManyRequest {
     return Intl.message(
-      'Too many requests check verification code',
+      'Too many requests check verification Código',
       name: 'verificationCodeManyRequest',
       desc: '',
       args: [],
     );
   }
 
-  /// `Try another way`
+  /// `Prueba de otra manera`
   String get tryAnotherWay {
     return Intl.message(
-      'Try another way',
+      'Prueba de otra manera',
       name: 'tryAnotherWay',
       desc: '',
       args: [],
     );
   }
 
-  /// `Select a way to verify`
+  /// `Seleccione una forma de verificar`
   String get selectWayToVerify {
     return Intl.message(
-      'Select a way to verify',
+      'Seleccione una forma de verificar',
       name: 'selectWayToVerify',
       desc: '',
       args: [],
     );
   }
 
-  /// `Authenticator app`
+  /// `Aplicación de Autenticación`
   String get mfaProviderTopt {
     return Intl.message(
-      'Authenticator app',
+      'Aplicación de Autenticación',
       name: 'mfaProviderTopt',
       desc: '',
       args: [],
@@ -970,20 +970,20 @@ class S {
     );
   }
 
-  /// `Email`
+  /// `Correo`
   String get mfaProviderEmail {
     return Intl.message(
-      'Email',
+      'Correo',
       name: 'mfaProviderEmail',
       desc: '',
       args: [],
     );
   }
 
-  /// `Backup code`
+  /// `Respaldo Código`
   String get mfaProviderBackupCode {
     return Intl.message(
-      'Backup code',
+      'Respaldo Código',
       name: 'mfaProviderBackupCode',
       desc: '',
       args: [],
