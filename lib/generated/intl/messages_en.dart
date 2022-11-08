@@ -63,7 +63,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "backupCodeAuthPlaceholder":
             MessageLookupByLibrary.simpleMessage("Respaldo Código"),
         "changePassword":
-            MessageLookupByLibrary.simpleMessage("Cambio de Contraseña"),
+            MessageLookupByLibrary.simpleMessage("Modificar Contraseña"),
         "city": MessageLookupByLibrary.simpleMessage("Ciudad"),
         "continueText": MessageLookupByLibrary.simpleMessage("Continuar"),
         "country": MessageLookupByLibrary.simpleMessage("Pais"),
@@ -97,7 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "lastNameUpper": MessageLookupByLibrary.simpleMessage("Apellido"),
         "listIsEmptyText": MessageLookupByLibrary.simpleMessage(
             "La lista esta actualmente vacia."),
-        "login": MessageLookupByLibrary.simpleMessage("Ingresa"),
+        "login": MessageLookupByLibrary.simpleMessage("Ingresar"),
         "loginNotification":
             MessageLookupByLibrary.simpleMessage("Inicio de sesion"),
         "logoDefaultValue":
@@ -116,7 +116,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "newPassword2RequireText": MessageLookupByLibrary.simpleMessage(
             "Nueva contraseña nuevamente es requerida."),
         "newPassword2Star":
-            MessageLookupByLibrary.simpleMessage("New password again *"),
+            MessageLookupByLibrary.simpleMessage("Nueva contraseña de nuevo *"),
         "newPasswordRequireText": MessageLookupByLibrary.simpleMessage(
             "Nueva Contraseña es requerida."),
         "newPasswordStar":
@@ -143,8 +143,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "postalCode": MessageLookupByLibrary.simpleMessage("Zip / Postal Code"),
         "profileSuccessNotification": MessageLookupByLibrary.simpleMessage(
             " Perfil actualizado con éxito"),
-        "requestPasswordReset": MessageLookupByLibrary.simpleMessage(
-            "Petición para la recuperación de nueva contraseña"),
+        "requestPasswordReset":
+            MessageLookupByLibrary.simpleMessage("Recuperación de Contraseña"),
         "resendCode": MessageLookupByLibrary.simpleMessage("Reenviar código"),
         "resendCodeWait": m1,
         "selectWayToVerify": MessageLookupByLibrary.simpleMessage(

@@ -10,7 +10,7 @@
   "assets": "Activos",
   "auditLogs": "Registros de Auditoria",
   "logout": "Salir",
-  "login": "Ingresa",
+  "login": "Ingresar",
 
   "logoDefaultValue": "WeeLab.io Logo",
   "loginNotification": "Inicio de sesion",
@@ -23,7 +23,7 @@
   "passwordForgotText": "Olvido su Contraseña?",
   "passwordReset": "!!Cambia su Contraseña!!",
   "passwordResetText": "Ingrese el correo electrónico asociado con su cuenta y le enviaremos un correo electrónico con un enlace para restablecer la contraseña",
-  "requestPasswordReset": "Petición para la recuperación de nueva contraseña",
+  "requestPasswordReset": "Recuperación de Contraseña",
   "passwordResetLinkSuccessfullySentNotification": "El enlace de restablecimiento de contraseña se envió con éxito!",
 
   "OR": "OR",
@@ -64,7 +64,7 @@
   "tenantAdministrator": "Administrator de Clientes",
   "customer": "Cliente",
 
-  "changePassword": "Cambio de Contraseña",
+  "changePassword": "Modificar Contraseña",
   "currentPassword": "ContraseñaActual",
   "currentPasswordRequireText": "Se requiere Contraseña Actual.",
   "currentPasswordStar": "Contraseña Actual *",
@@ -73,7 +73,7 @@
   "newPasswordStar": "Nueva Contraseña*",
   "newPassword2": "nuevaContraseña2",
   "newPassword2RequireText": "Nueva contraseña nuevamente es requerida.",
-  "newPassword2Star": "New password again *",
+  "newPassword2Star": "Nueva contraseña de nuevo *",
   "passwordErrorNotification": "Las contraseñas ingresadas deben ser las mismas!",
 
   "emailStar": "Correo *",

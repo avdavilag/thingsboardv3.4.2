@@ -140,10 +140,10 @@ class S {
     );
   }
 
-  /// `Ingresa`
+  /// `Ingresar`
   String get login {
     return Intl.message(
-      'Ingresa',
+      'Ingresar',
       name: 'login',
       desc: '',
       args: [],
@@ -260,10 +260,10 @@ class S {
     );
   }
 
-  /// `Petición para la recuperación de nueva contraseña`
+  /// `Recuperación de Contraseña`
   String get requestPasswordReset {
     return Intl.message(
-      'Petición para la recuperación de nueva contraseña',
+      'Recuperación de Contraseña',
       name: 'requestPasswordReset',
       desc: '',
       args: [],
@@ -570,10 +570,10 @@ class S {
     );
   }
 
-  /// `Cambio de Contraseña`
+  /// `Modificar Contraseña`
   String get changePassword {
     return Intl.message(
-      'Cambio de Contraseña',
+      'Modificar Contraseña',
       name: 'changePassword',
       desc: '',
       args: [],
@@ -660,10 +660,10 @@ class S {
     );
   }
 
-  /// `New password again *`
+  /// `Nueva contraseña de nuevo *`
   String get newPassword2Star {
     return Intl.message(
-      'New password again *',
+      'Nueva contraseña de nuevo *',
       name: 'newPassword2Star',
       desc: '',
       args: [],
